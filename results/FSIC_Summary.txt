@@ -1,0 +1,4 @@
+Repeatability — sin: fuse_rate=0.40, median_fuse_time=10.50, mean_R=0.638
+Repeatability — phi: fuse_rate=0.80, median_fuse_time=8.23, mean_R=0.817
+Transfer — A vs B: see results/transfer.csv (expect ±15% on fuse_time and final_R)
+Stress — re‑entrainment time: 0.00 s (target < 2.0 s)
