@@ -12,3 +12,10 @@ gunicorn
 
 setuptools>=65.5.0
 wheel
+
+
+
+scipy==1.10.1
+
+audioread==2.1.9
+resampy==0.3.1
