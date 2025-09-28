@@ -33,8 +33,14 @@ except Exception as e:
     print("❌ Could not load preset config:", e)
     BASE_CONFIG = {}
 
+# app = Flask(__name__)
+# CORS(app)
+
+
 app = Flask(__name__)
-CORS(app)
+
+CORS(app, resources={r"/*": {"origins": ["https://fsic.vercel.app"]}})
+
 
 
 # ---------- helpers ----------
