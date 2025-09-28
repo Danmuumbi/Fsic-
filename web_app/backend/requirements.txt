@@ -9,3 +9,5 @@ wavefile==1.6.3
 soundfile
 
 gunicorn
+
+setuptools>=65.5.0
