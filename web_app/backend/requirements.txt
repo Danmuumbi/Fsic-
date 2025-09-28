@@ -11,3 +11,4 @@ soundfile
 gunicorn
 
 setuptools>=65.5.0
+wheel
