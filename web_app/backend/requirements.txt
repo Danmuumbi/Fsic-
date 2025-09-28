@@ -7,3 +7,5 @@ flask-cors==4.0.0
 librosa==0.10.1
 wavefile==1.6.3 
 soundfile
+
+gunicorn
