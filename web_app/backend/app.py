@@ -365,5 +365,5 @@ def upload_music():
 
 
 if __name__ == '__main__':
-    print("🚀 Starting FSIC backend on http://localhost:5000")
+    print("🚀 Starting FSIC backend on https://fsic.onrender.com")
     app.run(debug=True, port=5000, host='0.0.0.0', threaded=True)
