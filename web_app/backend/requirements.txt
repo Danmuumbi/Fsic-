@@ -1,6 +1,6 @@
 # Core scientific stack
 numpy==1.26.4
-scipy==1.11.4
+scipy==1.10.1
 
 # Web framework
 flask==2.3.3
