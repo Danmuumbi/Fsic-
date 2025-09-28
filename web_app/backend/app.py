@@ -3,6 +3,11 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os, sys, json, tempfile, math
 import numpy as np
+
+
+import os
+os.environ["NUMBA_DISABLE_JIT"] = "1"
+
 import librosa
 import scipy
 
