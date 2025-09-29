@@ -2,7 +2,10 @@ numpy
 scipy
 flask
 flask-cors
-librosa
+librosa==0.9.2
+# Ensure no numba is pulled in
+numba==0.0.0 ; python_version < "0"  # forces pip to ignore numba
+
 wavefile
 soundfile
 audioread
