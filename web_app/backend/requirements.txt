@@ -6,6 +6,8 @@ librosa
 soundfile
 audioread
 resampy
-numba>=0.60
 gunicorn
 setuptools
+
+numba==0.62.0
+llvmlite==0.39.1
