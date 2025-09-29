@@ -9,7 +9,11 @@ import warnings
 warnings.filterwarnings("ignore")
 
 import os
+
+# --- force librosa to skip numba ---
 os.environ["NUMBA_DISABLE_JIT"] = "1"
+os.environ["LIBROSA_DISABLE_NUMBA"] = "1"
+
 
 import librosa
 import scipy
