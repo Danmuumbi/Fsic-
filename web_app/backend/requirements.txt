@@ -14,3 +14,4 @@ gunicorn
 setuptools>=65.5.0
 wheel
 standard-aifc
+standard-sunau
