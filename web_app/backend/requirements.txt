@@ -1,13 +1,12 @@
-numpy==1.26.4
+numpy
 scipy
 flask
 flask-cors
 librosa
+wavefile
 soundfile
 audioread
 resampy
 gunicorn
-setuptools
-
-numba==0.62.0
-llvmlite==0.39.1
+setuptools>=65.5.0
+wheel
