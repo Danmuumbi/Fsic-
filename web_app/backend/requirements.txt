@@ -9,3 +9,5 @@ resampy
 
 
 numba>=0.59
+gunicorn
+setuptools
