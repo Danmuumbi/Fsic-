@@ -378,6 +378,13 @@ def upload_music():
                 pass
 
 
+# if __name__ == '__main__':
+#     print("🚀 Starting FSIC backend on https://fsic.onrender.com")
+#     app.run(debug=True, port=5000, host='0.0.0.0', threaded=True)
+
+
+
 if __name__ == '__main__':
-    print("🚀 Starting FSIC backend on https://fsic.onrender.com")
-    app.run(debug=True, port=5000, host='0.0.0.0', threaded=True)
+    port = int(os.environ.get('PORT', 5000))
+    print(f"🚀 Starting FSIC backend on port {port}")
+    app.run(debug=False, port=port, host='0.0.0.0')
