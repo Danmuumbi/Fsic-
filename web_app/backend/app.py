@@ -24,7 +24,7 @@ except Exception as e:
     def run_simulation(cfg, return_trace=False):
         return {'fused': 0, 'fuse_time': 0.0, 'final_R': 0.0}
 
-# SciPy hann compatibility (some older librosa calls may expect scipy.signal.hann)
+
 import scipy.signal
 if not hasattr(scipy.signal, "hann"):
     scipy.signal.hann = np.hanning  # monkey patch to avoid attribute error

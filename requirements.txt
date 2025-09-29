@@ -1,4 +1,4 @@
-numpy
+numpy==1.26.4
 scipy
 flask
 flask-cors
@@ -10,3 +10,4 @@ resampy
 gunicorn
 setuptools>=65.5.0
 wheel
+numba<0.59.0,>=0.58.0 # This is the crucial line to add/modify
