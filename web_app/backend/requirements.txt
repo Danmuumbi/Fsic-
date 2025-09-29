@@ -1,4 +1,4 @@
-numpy
+numpy==1.26.4
 scipy
 flask
 flask-cors
@@ -6,8 +6,6 @@ librosa
 soundfile
 audioread
 resampy
-
-
-numba>=0.59
+numba>=0.60
 gunicorn
 setuptools
