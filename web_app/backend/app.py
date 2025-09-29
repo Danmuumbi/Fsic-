@@ -5,6 +5,9 @@ import os, sys, json, tempfile, math
 import numpy as np
 
 
+import warnings
+warnings.filterwarnings("ignore")
+
 import os
 os.environ["NUMBA_DISABLE_JIT"] = "1"
 
