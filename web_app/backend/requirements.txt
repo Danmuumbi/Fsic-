@@ -6,4 +6,6 @@ librosa
 soundfile
 audioread
 resampy
-gunicorn
+
+
+numba>=0.59
